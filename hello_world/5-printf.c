@@ -5,7 +5,7 @@
 
 /**
  * main - Prints "with proper grammar, but the outcome is
- * 		  a piece of art,
+ *			a piece of art,
  *
  * Return : always 0.
  */
