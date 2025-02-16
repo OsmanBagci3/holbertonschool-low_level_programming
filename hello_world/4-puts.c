@@ -3,8 +3,7 @@
  */
 #include <stdio.h>
 /*
- * the puts function
- *
+ * main - Prints  "Programming is like building a multilingual puzzle"
  */
 int main(void)
 {
