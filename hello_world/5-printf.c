@@ -1,5 +1,5 @@
 /*
- * File: 5-printf.c 
+ * File: 5-printf.c
  */
 #include <stdio.h>
 
