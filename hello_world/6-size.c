@@ -9,8 +9,8 @@
  * Return: Always 0.
  */
 
-int main(void){
-
+int main(void)
+{
 	int intType;
 	float floatType;
 	double doubleType;
