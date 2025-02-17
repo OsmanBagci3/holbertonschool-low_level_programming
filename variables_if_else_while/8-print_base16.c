@@ -7,7 +7,7 @@
 #include <time.h>
 
 /**
- * main - Prints alphabet all numbers 
+ * main - Prints alphabet all numbers
  *	of base 16 in lowercase
  *
  *
