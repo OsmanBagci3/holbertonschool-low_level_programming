@@ -15,9 +15,9 @@
 
 int main(void)
 {
-	char ch = 'abcdefghijklmnopqrstuvwxyz';
+	char ch;
 
-	putchar(ch);
+	for (c = 'a' ; c <= 'z' ; c++) putchar(ch);
 
 	return (0);
 }
