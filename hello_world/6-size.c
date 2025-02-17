@@ -10,6 +10,7 @@
  */
 
 int main(void){
+
 	int intType;
 	float floatType;
 	double doubleType;
