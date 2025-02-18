@@ -10,12 +10,11 @@
  * _islower - Depending if c is lowercase
  *
  * @c Parameter
- * 
  *
  * Return: 1 or 0.
  */
 
-int _islower(char c) /**< Caractere. */
+int _islower(char c)
 {
 	if (islower(c))
 	{
