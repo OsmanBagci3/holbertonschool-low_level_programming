@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#include <time.h>
 #include <unistd.h>
+#include <ctype.h>
 /**
  * _islower - Depending if c is lowercase
  *
