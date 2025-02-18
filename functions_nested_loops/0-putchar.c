@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include "main.h"
 #include <time.h>
+#include <unistd.h>
 /**
  * main - Prints _putchar
  *
@@ -13,7 +14,7 @@
 
 int main(void)
 {
-	_putchar("hello\n");
+	_putchar("P\n");
 
 	return (0);
 }
