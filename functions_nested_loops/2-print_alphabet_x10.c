@@ -4,8 +4,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "main.h"
-#include <time.h>
 #include <unistd.h>
+#include "1-alphabet.h"
+
 /**
  * print_alphabet - Prints alphabet using _putchar
  *			x10
