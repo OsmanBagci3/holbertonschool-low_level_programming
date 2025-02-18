@@ -10,6 +10,7 @@
  * _islower - Depending if c is lowercase
  *
  * @param c Parameter
+ * @return 1
  *
  * Return: 1 or 0.
  */
