@@ -8,7 +8,7 @@
 #include "1-alphabet.c"
 
 /**
- * print_alphabet - Prints alphabet using _putchar
+ * print_alphabet_x10 - Prints alphabet using _putchar
  *			x10
  *
  * Return: Always 0.
