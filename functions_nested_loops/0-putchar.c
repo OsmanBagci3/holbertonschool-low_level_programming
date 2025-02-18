@@ -14,7 +14,14 @@
 
 int main(void)
 {
-	char c = 'P';
+	char _ = '_';
+	char p = 'p';
+	char u = 'u';
+	char t = 't';
+	char c = 'c';
+	char h = 'h';
+	char a = 'a';
+	char r = 'r';
 
 	_putchar(c);
 
