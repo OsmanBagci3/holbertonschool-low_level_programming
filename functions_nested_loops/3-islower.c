@@ -9,13 +9,11 @@
 /**
  * _islower - Depending if c is lowercase
  *
- * c is a parameter
  *
  * Return: 1 or 0.
  */
 
-/* c - Parametre d entre */
-int _islower(char c)
+int _islower(char c) // c - Paremeter
 {
 	if (islower(c))
 	{
