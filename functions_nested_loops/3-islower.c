@@ -9,8 +9,8 @@
 /**
  * _islower - Depending if c is lowercase
  *
- * @param c Parameter
- * @return 1
+ * @c Parameter
+ * 
  *
  * Return: 1 or 0.
  */
