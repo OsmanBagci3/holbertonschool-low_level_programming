@@ -21,7 +21,7 @@ int print_last_digit (double n)
 
 	if (n < 0 )
 	{
-		lastDigit = abs(n) % 10;
+		lastDigit = (-1 * n) % 10;
 	}
 	else
 	{
