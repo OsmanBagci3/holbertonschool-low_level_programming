@@ -7,7 +7,7 @@
 #include <time.h>
 #include <unistd.h>
 /**
- * main - Prints alphabet using _putchar
+ * print_alphabet - Prints alphabet using _putchar
  *
  * Return: Always 0.
  */
