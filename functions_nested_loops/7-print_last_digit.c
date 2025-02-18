@@ -18,5 +18,7 @@ int print_last_digit (int n)
 {
 	int lastDigit = n % 10;
 	
-	return (lastDigit + lastDigit);
+	lastDigit = lastDigit * 11;
+
+	return (lastDigit);
 }
