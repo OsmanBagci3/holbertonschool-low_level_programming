@@ -1,8 +1,9 @@
 /*
- * File: 9-print_comb.c
+ * File: 0-putchar.c
  */
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 #include <time.h>
 /**
  * main - Prints _putchar
@@ -12,7 +13,7 @@
 
 int main(void)
 {
-	printf("_putchar\n");
+	_putchar("hello\n");
 
 	return (0);
 }
