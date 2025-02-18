@@ -2,7 +2,7 @@
  * File: 7-print_last_digit.c
  */
 #include <stdio.h>
-#include <stdlib.h>
+#include <limits.h>
 #include "main.h"
 #include <unistd.h>
 #include <ctype.h>
@@ -14,7 +14,7 @@
  * Return: 1 or 0.
  */
 
-int print_last_digit (double n)
+int print_last_digit (int n)
 {
 	int lastDigit;
 
