@@ -12,10 +12,7 @@
  * Return: 1 or 0.
  */
 
-/**
- * c - Parametre d entre
- */
-
+/* c - Parametre d entre */
 int _islower(char c)
 {
 	if (islower(c))
