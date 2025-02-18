@@ -15,8 +15,7 @@
 void print_alphabet(void)
 {
 
-	printf("abcdefghijklmnopqrstuvwxyz");
+	printf("abcdefghijklmnopqrstuvwxyz\n");
 	_putchar('\n');
 
-	return (0);
 }
