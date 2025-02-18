@@ -9,7 +9,7 @@
 /**
  * _islower - Depending if c is lowercase
  *
- * @c Parameter
+ * @c : Parameter
  *
  * Return: 1 or 0.
  */
