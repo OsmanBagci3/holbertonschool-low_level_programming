@@ -14,8 +14,12 @@
 
 void print_alphabet(void)
 {
+	char c;
 
-	printf("abcdefghijklmnopqrstuvwxyz\n");
+	for (c = 'a' ; c = 'z' ; c++)
+	{
+		_putchar(c);
+	}
 	_putchar('\n');
 
 }
