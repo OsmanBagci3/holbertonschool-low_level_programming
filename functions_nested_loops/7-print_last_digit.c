@@ -14,12 +14,12 @@
  * Return: 1 or 0.
  */
 
-int print_last_digit (int n)
+int print_last_digit(int n)
 {
 	int lastDigit = n % 10;
 
 
-	if (lastDigit < 0 )
+	if (lastDigit < 0)
 	{
 		lastDigit = -1 * lastDigit;
 	}
