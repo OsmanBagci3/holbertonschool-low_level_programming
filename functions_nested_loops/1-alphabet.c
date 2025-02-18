@@ -12,10 +12,10 @@
  * Return: Always 0.
  */
 
-int main(void)
+void print_alphabet(void)
 {
 
-	print_alphabet();
+	printf("abcdefghijklmnopqrstuvwxyz");
 	_putchar('\n');
 
 	return (0);
