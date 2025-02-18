@@ -14,7 +14,9 @@
 
 int main(void)
 {
-	_putchar("P\n");
+	char c = 'P';
+
+	_putchar(c);
 
 	return (0);
 }
