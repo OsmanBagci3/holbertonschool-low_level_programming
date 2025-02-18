@@ -9,6 +9,8 @@
 /**
  * _islower - Depending if c is lowercase
  *
+ * c is a parameter
+ *
  * Return: 1 or 0.
  */
 
