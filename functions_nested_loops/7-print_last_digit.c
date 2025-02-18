@@ -23,7 +23,10 @@ int print_last_digit (int n)
 	{
 		lastDigit = abs(n) % 10;
 	}
-	lastDigit = n % 10;
+	else
+	{
+		lastDigit = n % 10;
+	}
 
 	_putchar(lastDigit + '0');
 
