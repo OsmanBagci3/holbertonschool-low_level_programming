@@ -16,7 +16,7 @@
  */
 
 /**
- * affichage - Printing
+ * affichage - Prints a message to console
  *
  * @n : Parameter
  *
