@@ -1,5 +1,5 @@
 /*
- * File: 10-add.c
+ * File: 11-print_to_98.c
  */
 #include <stdio.h>
 #include "main.h"
@@ -7,137 +7,55 @@
 #include <ctype.h>
 #include "6-abs.c"
 /**
- * add - Adding two integers
+ * print_to_98 - Display numbers from n to 98
  *
  * @n : Starting integer
  *
  * Return: 1 or 0.
  */
-
 void print_to_98(int n)
 {
-	int firstDigit;
-	int lastDigit;
 	int centieme;
+	int dizaine;
+	int unite;
 
-	if (!(n == 98))
+	if (n < 98)
 	{
-		if (_abs(n) < 10)
+		for ( ; n < 98 ; n++)
 		{
-			if (n < 0)
+			if (! (n == 0))
 			{
-				_putchar('-');
-				_putchar('0' + n);
-			}
-			else if (n > 0)
-			{
-				_putchar('0' + n);
+				centieme = _abs(n) / 100;
+				dizaine = (_abs(n) / 10) % 10;
+				unite = _abs(n) % 10;
+				if (n < 0) _putchar('-');
+				if (!(centieme == 0)) _putchar('0' + centieme);
+				if (!(dizaine == 0)) _putchar('0' + dizaine);
+				_putchar('0' + unite);
 			}
 			else
 			{
 				_putchar('0');
 			}
-		}
-		else
-		{
-			centieme = _abs(n) / 100;
-			firstDigit = (_abs(n) / 10) % 10;
-			lastDigit = _abs(n) % 10;
-		}
-		if (n < 0)
-		{
-			_putchar('-');
-			if (!(centieme == 0))
-			{
-				_putchar('0' + centieme);
-			}
-			_putchar('0' + firstDigit);
-			_putchar('0' + lastDigit);
-
-		}
-		else if (n > 0)
-		{
-			if (!(centieme == 0))
-			{
-				_putchar('0' + centieme);
-			}
-			_putchar('0' + firstDigit);
-			_putchar('0' + lastDigit);
-		}
-
-	if (n < 98)
-	{
-		for (n = n + 1 ; n < 98 ; n++)
-		{
 			_putchar(',');
 			_putchar(' ');
-			if (_abs(n) < 10)
-			{
-				if (n < 0)
-				{
-					_putchar('-');
-					_putchar('0' + (-1 * n));
-				}
-				else
-				{
-					_putchar('0' + n);
-				}
-			}
-			else
-			{
-				centieme = _abs(n) / 100;
-				firstDigit = (_abs(n) / 10) % 10;
-				lastDigit = _abs(n) % 10;
-
-				if (n < 0)
-				{
-					_putchar('-');
-
-					if (!(centieme == 0))
-					{
-						_putchar('0' + centieme);
-					}
-					_putchar('0' + firstDigit);
-					_putchar('0' + lastDigit);
-				}
-				else
-				{
-					_putchar('0' + firstDigit);
-					_putchar('0' + lastDigit);
-				}
-			}
 		}
 	}
 	else if (n > 98)
 	{
-		for (n = n - 1 ; n > 98 ; n--)
+		for ( ; n > 98 ; n--)
 		{
+			centieme = _abs(n) / 100;
+			dizaine = (_abs(n) / 10) % 10;
+			unite = _abs(n) % 10;
+			if (!(centieme == 0)) _putchar('0' + centieme);
+			if (!(dizaine == 0)) _putchar('0' + dizaine);
+			_putchar('0' + unite);
 			_putchar(',');
 			_putchar(' ');
-
-			centieme = _abs(n) / 100;
-			firstDigit = (_abs(n) / 10) % 10;
-			lastDigit = _abs(n) % 10;
-
-			if (!(centieme == 0))
-			{
-				_putchar('0' + centieme);
-			}
-
-			_putchar('0' + firstDigit);
-			_putchar('0' + lastDigit);
 		}
 	}
-
-	_putchar(',');
-	_putchar(' ');
 	_putchar('9');
 	_putchar('8');
-	}
-	else
-	{
-		_putchar('9');
-		_putchar('8');
-	}
 	_putchar('\n');
 }
