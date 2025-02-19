@@ -40,13 +40,14 @@ void times_table(void)
 			{
 				lastDigit = k % 10;
 				firstDigit = k / 10;
+                                if(j > 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+                                }
+
 				_putchar('0' + firstDigit);
 				_putchar('0' + lastDigit);
-				if(j < 9)
-				{
-				_putchar(',');
-				_putchar(' ');
-				}
 			}
 		}
 		_putchar('\n');
