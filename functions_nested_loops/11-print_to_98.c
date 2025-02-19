@@ -16,14 +16,14 @@
  */
 
 /**
- * affichage - Prints a message to console
+ * affichage - Prints an integer to the console
  *
- * @n: Parametre d entre
+ * @n: Parameter to be printed
  *
- * This function prints the given message to the standard output.
+ * This function prints an integer, handling negative numbers correctly.
  */
 
-void affichage(int n);
+
 void print_to_98(int n)
 {
 	if (n < 98)
