@@ -9,6 +9,8 @@
 /**
  * add - Adding two integers
  *
+ * @a : First integer
+ * @b : Second Integer
  *
  * Return: 1 or 0.
  */
