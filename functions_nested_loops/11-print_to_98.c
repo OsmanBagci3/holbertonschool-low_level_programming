@@ -55,7 +55,7 @@ void print_to_98(int n)
 			_putchar('0' + lastDigit);
 
 		}
-		else
+		else if (n > 0)
 		{
 			if (!(centieme == 0))
 			{
