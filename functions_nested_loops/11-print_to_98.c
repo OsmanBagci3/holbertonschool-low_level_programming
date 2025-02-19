@@ -67,7 +67,7 @@ void print_to_98(int n)
 
 	if (n < 98)
 	{
-		for (n = n+1 ; n < 98 ; n++)
+		for (n = n + 1 ; n < 98 ; n++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -76,7 +76,7 @@ void print_to_98(int n)
 				if (n < 0)
 				{
 					_putchar('-');
-					_putchar('0' + (-1*n));
+					_putchar('0' + (-1 * n));
 				}
 				else
 				{
