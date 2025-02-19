@@ -16,13 +16,12 @@
  */
 
 /**
- * affichage - Permet de display
+ * affichage - Printing
  *
  * @n : Parameter
  *
- * Return: 0.
+ * Return: 1 or 0.
  */
-
 
 void affichage(int n);
 void print_to_98(int n)
