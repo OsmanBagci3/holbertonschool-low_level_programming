@@ -15,14 +15,6 @@
  * Return: 1 or 0.
  */
 
-/**
- * affichage - Prints an integer to the console
- *
- * @n: Parameter to be printed
- *
- * This function prints an integer, handling negative numbers correctly.
- */
-
 
 void print_to_98(int n)
 {
@@ -52,6 +44,13 @@ void print_to_98(int n)
 	affichage(98);
 	_putchar('\n');
 }
+
+/**
+ * affichage - Prints an integer to the console
+ * @n: Parameter to be printed
+ *
+ * This function prints an integer, handling negative numbers correctly.
+ */
 
 void affichage(int n)
 {
