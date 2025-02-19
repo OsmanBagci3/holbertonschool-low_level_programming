@@ -18,7 +18,7 @@
 /**
  * affichage - Prints a message to console
  *
- * @n : Parameter
+ * @n : Parametre d entre
  *
  */
 
