@@ -18,7 +18,7 @@
 /**
  * affichage - Prints a message to console
  *
- * @n : Parametre d entre
+ * @n: Parametre d entre
  *
  * This function prints the given message to the standard output.
  */
