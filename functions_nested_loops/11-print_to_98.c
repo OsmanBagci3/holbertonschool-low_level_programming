@@ -22,12 +22,12 @@ void print_to_98(int n)
 
 	if (! (n == 98))
 	{
-		if (abs(n) < 10 )
+		if (_abs(n) < 10 )
 		{
 			if (n < 0)
 			{
 				_putchar('-');
-				_putchar('0' + n)
+				_putchar('0' + n);
 			}
 			else
 			{
