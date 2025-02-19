@@ -7,7 +7,6 @@
 #include <ctype.h>
 #include "6-abs.c"
 /**
- * affichage - Permet de display
  * print_to_98 - Display numbers from n to 98 using affichage
  *
  *
@@ -15,6 +14,13 @@
  *
  * Return: 1 or 0.
  */
+
+/**
+ * affichage - Permet de display
+ *
+ * @n : Parameter
+ */
+
 
 void affichage(int n);
 void print_to_98(int n)
