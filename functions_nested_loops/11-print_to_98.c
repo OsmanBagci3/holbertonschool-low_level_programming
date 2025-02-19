@@ -7,8 +7,9 @@
 #include <ctype.h>
 #include "6-abs.c"
 /**
+ * affichage - Permet de display
  * print_to_98 - Display numbers from n to 98 using affichage
- * affichage - Display
+ *
  *
  * @n : Starting integer
  *
