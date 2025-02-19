@@ -20,9 +20,9 @@ void print_to_98(int n)
 	int lastDigit;
 	int centieme;
 
-	if (! (n == 98))
+	if (!(n == 98))
 	{
-		if (_abs(n) < 10 )
+		if (_abs(n) < 10)
 		{
 			if (n < 0)
 			{
@@ -110,7 +110,7 @@ void print_to_98(int n)
 	}
 	else if (n > 98)
 	{
-		for (n = n-1 ; n > 98 ; n--)
+		for (n = n - 1 ; n > 98 ; n--)
 		{
 			_putchar(',');
 			_putchar(' ');
