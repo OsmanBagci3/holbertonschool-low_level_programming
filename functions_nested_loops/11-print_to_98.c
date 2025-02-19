@@ -13,6 +13,8 @@
  *
  * Return: 1 or 0.
  */
+
+void affichage(int n);
 void print_to_98(int n)
 {
 	if (n < 98)
@@ -75,6 +77,6 @@ void affichage(int n)
 	if (!(centieme == 0))
 		_putchar('0' + centieme);
 	if (_abs(n) > 9)
-		_putchar('0' + diazaine);
+		_putchar('0' + dizaine);
 	_putchar('0' + unite);
 }
