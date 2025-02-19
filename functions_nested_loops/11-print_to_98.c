@@ -85,7 +85,7 @@ void print_to_98(int n)
 			}
 			else
 			{
-				centieme = _abs(n) / 100
+				centieme = _abs(n) / 100;
 				firstDigit = (_abs(n) / 10) % 10;
 				lastDigit = _abs(n) % 10;
 
