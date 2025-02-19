@@ -18,15 +18,29 @@ void times_table(void)
 	int i;
 	int j;
 	int k;
+	int lastDigit;
+	int firstDigit;
 
 	for(i = 0 ; i < 10 ; i++)
 	{
 		for(j = 0 ; j < 10 ; j++)
 		{
 			k = i * j;
-			_putchar('0' + k);
-			_putchar(',');
-			_putchar(' ');
+			if(k < 10)
+			{
+				_putchar('0' + k);
+				_putchar(',');
+				_putchar(' ');
+			}
+			else
+			{
+				lastDigit = k % 10;
+				firstDigit = k / 10;
+				_putchar('0' + firstDigit);
+				_putchar('0' + lastDigit);
+				_putchar(',');
+				_putchar(' ');
+			}
 		}
 		_putchar('\n');
 	}
