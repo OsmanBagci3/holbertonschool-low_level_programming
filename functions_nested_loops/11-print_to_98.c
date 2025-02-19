@@ -85,12 +85,18 @@ void print_to_98(int n)
 			}
 			else
 			{
-				firstDigit = _abs(n) / 10;
+				centieme = _abs(n) / 100
+				firstDigit = (_abs(n) / 10) % 10;
 				lastDigit = _abs(n) % 10;
 
 				if (n < 0)
 				{
-					_putchar('_');
+					_putchar('-');
+
+					if (!(centieme == 0))
+					{
+						_putchar('0' + centieme);
+					}
 					_putchar('0' + firstDigit);
 					_putchar('0' + lastDigit);
 				}
