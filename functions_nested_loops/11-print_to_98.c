@@ -20,7 +20,6 @@
  *
  * @n : Parameter
  *
- * Return: 1 or 0.
  */
 
 void affichage(int n);
