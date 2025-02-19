@@ -36,8 +36,8 @@ void print_to_98(int n)
 		}
 		else
 		{
-			firstDigit = abs(n) / 10;
-			lastDigit = abs(n) % 10;
+			firstDigit = _abs(n) / 10;
+			lastDigit = _abs(n) % 10;
 		}
 		if (n < 0)
 		{
@@ -58,7 +58,7 @@ void print_to_98(int n)
 		{
 			_putchar(',');
 			_putchar(' ');
-			if (abs(n) < 10)
+			if (_abs(n) < 10)
 			{
 				if (n < 0)
 				{
@@ -72,8 +72,8 @@ void print_to_98(int n)
 			}
 			else
 			{
-				firstDigit = abs(n) / 10;
-				lastDigit = abs(n) % 10;
+				firstDigit = _abs(n) / 10;
+				lastDigit = _abs(n) % 10;
 
 				if (n < 0)
 				{
@@ -96,9 +96,9 @@ void print_to_98(int n)
 			_putchar(',');
 			_putchar(' ');
 
-			centieme = abs(n) / 100;
-			firstDigit = abs(n) / 10;
-			lastDigit = abs(n) % 10;
+			centieme = _abs(n) / 100;
+			firstDigit = _abs(n) / 10;
+			lastDigit = _abs(n) % 10;
 
 			if (!(centieme == 0))
 			{
