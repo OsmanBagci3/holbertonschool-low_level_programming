@@ -76,7 +76,7 @@ void print_to_98(int n)
 				if (n < 0)
 				{
 					_putchar('-');
-					_putchar('0' + n);
+					_putchar('0' + (-1*n));
 				}
 				else
 				{
