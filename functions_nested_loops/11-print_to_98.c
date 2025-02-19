@@ -37,9 +37,7 @@ void print_to_98(int n)
 				_putchar('0' + unite);
 			}
 			else
-			{
 				_putchar('0');
-			}
 			_putchar(',');
 			_putchar(' ');
 		}
