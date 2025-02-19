@@ -19,6 +19,8 @@
  * affichage - Permet de display
  *
  * @n : Parameter
+ *
+ * Return: 0.
  */
 
 
