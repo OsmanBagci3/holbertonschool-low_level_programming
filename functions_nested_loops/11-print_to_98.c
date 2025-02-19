@@ -1,0 +1,117 @@
+/*
+ * File: 10-add.c
+ */
+#include <stdio.h>
+#include <time.h>
+#include "main.h"
+#include <unistd.h>
+#include <ctype.h>
+/**
+ * add - Adding two integers
+ *
+ * @n : Starting integer
+ *
+ * Return: 1 or 0.
+ */
+
+void print_to_98(int n)
+{
+	int firstDigit;
+	int lastDigit;
+	int centieme;
+
+	if (! (n == 98))
+	{
+		if (abs(n) < 10 )
+		{
+			if (n < 0)
+			{
+				_putchar('-');
+				_putchar('0' + n)
+			}
+			else
+			{
+				_putchar('0' + n);
+			}
+		}
+		else
+		{
+			firstDigit = abs(n) / 10;
+			lastDigit = abs(n) % 10;
+		}
+		if (n < 0)
+		{
+			_putchar('-');
+			_putchar('0' + firstDigit);
+			_putchar('0' + lastDigit);
+		}
+		else
+		{
+			_putchar('0' + firstDigit);
+			_putchar('0' + lastDigit);
+		}
+	}
+
+	if (n < 98)
+	{
+		for (n = n+1 ; n < 98 ; n++)
+		{
+			_putchar(',');
+			_putchar(' ');
+			if (abs(n) < 10)
+			{
+				if (n < 0)
+				{
+					_putchar('-');
+					_putchar('0' + n);
+				}
+				else
+				{
+					_putchar('0' + n);
+				}
+			}
+			else
+			{
+				firstDigit = abs(n) / 10;
+				lastDigit = abs(n) % 10;
+
+				if (n < 0)
+				{
+					_putchar('_');
+					_putchar('0' + firstDigit);
+					_putchar('0' + lastDigit);
+				}
+				else
+				{
+					_putchar('0' + firstDigit);
+					_putchar('0' + lastDigit);
+				}
+			}
+		}
+	}
+	else if (n > 98)
+	{
+		for (n = n-1 ; n > 98 ; n--)
+		{
+			_putchar(',');
+			_putchar(' ');
+
+			centieme = abs(n) / 100;
+			firstDigit = abs(n) / 10;
+			lastDigit = abs(n) % 10;
+
+			if (!(centieme == 0))
+			{
+				_putchar('0' + centieme);
+			}
+
+			_putchar('0' + firstDigit);
+			_putchar('0' + lastDigit);
+		}
+	}
+
+	_putchar(',');
+	_putchar(' ');
+	_putchar('9');
+	_putchar('8');
+}
