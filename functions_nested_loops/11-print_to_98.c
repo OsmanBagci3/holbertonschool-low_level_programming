@@ -53,9 +53,9 @@ void print_to_98(int n)
 				_putchar('0' + centieme);
 			if (_abs(n) > 9)
 				_putchar('0' + dizaine);
-			_putchar('0' + unite);
+			_putchar('0' + unite);*/
 			_putchar(',');
-			_putchar(' ');*/
+			_putchar(' ');
 		}
 	}
 	_putchar('9');
