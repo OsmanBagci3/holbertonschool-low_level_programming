@@ -29,9 +29,13 @@ void print_to_98(int n)
 				_putchar('-');
 				_putchar('0' + n);
 			}
-			else
+			else if (n > 0)
 			{
 				_putchar('0' + n);
+			}
+			else
+			{
+				_putchar('0');
 			}
 		}
 		else
