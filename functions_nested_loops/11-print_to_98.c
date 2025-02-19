@@ -25,7 +25,8 @@ void print_to_98(int n)
 		{
 			if (!(n == 0))
 			{
-				centieme = _abs(n) / 100;
+				affichage(n);
+				/*centieme = _abs(n) / 100;
 				dizaine = (_abs(n) / 10) % 10;
 				unite = _abs(n) % 10;
 				if (n < 0)
@@ -34,7 +35,7 @@ void print_to_98(int n)
 					_putchar('0' + centieme);
 				if (_abs(n) > 9)
 					_putchar('0' + dizaine);
-				_putchar('0' + unite);
+				_putchar('0' + unite);*/
 			}
 			else
 				_putchar('0');
@@ -46,7 +47,8 @@ void print_to_98(int n)
 	{
 		for ( ; n > 98 ; n--)
 		{
-			centieme = _abs(n) / 100;
+			affichage(n);
+			/*centieme = _abs(n) / 100;
 			dizaine = (_abs(n) / 10) % 10;
 			unite = _abs(n) % 10;
 			if (!(centieme == 0))
@@ -55,10 +57,28 @@ void print_to_98(int n)
 				_putchar('0' + dizaine);
 			_putchar('0' + unite);
 			_putchar(',');
-			_putchar(' ');
+			_putchar(' ');*/
 		}
 	}
 	_putchar('9');
 	_putchar('8');
 	_putchar('\n');
+}
+
+void affichage(int n)
+{
+	int centieme;
+	int dizaine;
+	int unite;
+
+	centieme = _abs(n) / 100;
+	dizaine = (_abs(n) / 10) % 10;
+	unite = _abs(n) % 10;
+	if (n < 0)
+		_putchar('-');
+	if (!(centieme == 0))
+		_putchar('0' + centieme);
+	if (_abs(n) > 9)
+		_putchar('0' + diazaine);
+	_putchar('0' + unite);
 }
