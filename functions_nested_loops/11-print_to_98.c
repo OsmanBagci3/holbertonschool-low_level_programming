@@ -20,6 +20,7 @@
  *
  * @n : Parametre d entre
  *
+ * This function prints the given message to the standard output.
  */
 
 void affichage(int n);
