@@ -45,7 +45,7 @@ void print_to_98(int n)
 			_putchar('-');
 			if (!(centieme == 0))
 			{
-				_putchar('0' + centieme)
+				_putchar('0' + centieme);
 			}
 			_putchar('0' + firstDigit);
 			_putchar('0' + lastDigit);
