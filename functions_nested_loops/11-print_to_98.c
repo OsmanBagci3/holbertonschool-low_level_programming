@@ -28,9 +28,12 @@ void print_to_98(int n)
 				centieme = _abs(n) / 100;
 				dizaine = (_abs(n) / 10) % 10;
 				unite = _abs(n) % 10;
-				if (n < 0) {_putchar('-');}
-				if (!(centieme == 0)) _putchar('0' + centieme);
-				if (_abs(n) > 9) _putchar('0' + dizaine);
+				if (n < 0)
+					_putchar('-');
+				if (!(centieme == 0))
+					_putchar('0' + centieme);
+				if (_abs(n) > 9)
+					_putchar('0' + dizaine);
 				_putchar('0' + unite);
 			}
 			else
@@ -48,8 +51,10 @@ void print_to_98(int n)
 			centieme = _abs(n) / 100;
 			dizaine = (_abs(n) / 10) % 10;
 			unite = _abs(n) % 10;
-			if (!(centieme == 0)) _putchar('0' + centieme);
-			if (_abs(n) > 9) _putchar('0' + dizaine);
+			if (!(centieme == 0))
+				_putchar('0' + centieme);
+			if (_abs(n) > 9)
+				_putchar('0' + dizaine);
 			_putchar('0' + unite);
 			_putchar(',');
 			_putchar(' ');
