@@ -12,7 +12,7 @@
  *
  */
 
-void _strleng(char *s);
+void _strlen(char *s);
 
 void print_rev(char *s)
 {
