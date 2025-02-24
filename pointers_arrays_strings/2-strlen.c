@@ -15,11 +15,14 @@
 
 int _strlen(char *s)
 {
-	char str[] = s;
-	long size = sizeof(str);
-	
+	int compteur = 0;
 
-	printf("%ld", size);
+	while (s[compteur] != '\0')
+	{
+		compteur++
+	}
+
+	printf("%d", compteur);
 	
 	return (0);
 }
