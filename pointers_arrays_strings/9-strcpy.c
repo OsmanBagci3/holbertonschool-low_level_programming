@@ -13,10 +13,19 @@
  * @dest: Paramatre dentree
  * @src: Parametre dentree 2
  *
- * Return: Copied function
+ * Return: Pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
-	return (strcpy(dest, src));
+	char *ptr = dest;
+	int i;
+
+	while (src[i] != '\0')
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	return (ptr);
 }
