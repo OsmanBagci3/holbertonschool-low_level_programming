@@ -15,11 +15,9 @@
 
 int _strlen(char *s)
 {
-	char i = *s;
+	int i;
 
-	while (i != '\0')
-	{
-		_putchar(*(s + i));
+	for (i = 0 ; i < strlen(s) ; i++)
 		i++;
 	}
 	return (i);
