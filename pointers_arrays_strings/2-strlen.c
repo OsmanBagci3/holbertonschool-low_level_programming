@@ -22,7 +22,5 @@ int _strlen(char *s)
 		compteur++;
 	}
 
-	printf("%d", compteur);
-	
-	return (0);
+	return (compteur);
 }
