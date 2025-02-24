@@ -1,5 +1,5 @@
 /*
- * File: 9-strcpy.c
+ * File: 9
  */
 #include <stdio.h>
 #include <time.h>
