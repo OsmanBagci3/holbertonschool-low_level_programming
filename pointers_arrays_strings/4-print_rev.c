@@ -5,6 +5,7 @@
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
+#include "2-strlen.c"
 /**
  * print_rev - Print a string in reverse
  *
@@ -12,7 +13,6 @@
  *
  */
 
-int _strlen(char *s);
 
 void print_rev(char *s)
 {
@@ -23,6 +23,4 @@ void print_rev(char *s)
 	{
 		_putchar(s[i]);
 	}
-
-	_putchar('\n');
 }
