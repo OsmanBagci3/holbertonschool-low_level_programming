@@ -15,10 +15,7 @@
 
 int _strlen(char *s)
 {
-	int i;
+	char c[] = *s;
 
-	for (i = 0 ; i < strlen(s) ; i++)
-		i++;
-	}
-	return (i);
+	return (sizeof(c));
 }
