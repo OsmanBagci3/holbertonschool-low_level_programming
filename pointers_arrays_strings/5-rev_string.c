@@ -20,11 +20,11 @@ void rev_string(char *s)
 
 	char tempValue;
 
-	for (i = 0 ; i < size/2 ; i++)
+	for (i = 0 ; i < size / 2 ; i++)
 	{
 		tempValue = s[i];
-		s[i] = s[size -1 -i];
-		s[size -1 -i] = tempValue;
+		s[i] = s[size - 1 - i];
+		s[size - 1 - i] = tempValue;
 	}
 
 }
