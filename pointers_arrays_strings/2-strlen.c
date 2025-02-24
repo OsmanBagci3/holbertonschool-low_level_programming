@@ -16,7 +16,7 @@
 int _strlen(char *s)
 {
 	int i;
-	int size = sizeof(s) / sizeof(*s);
+	size_t size = sizeof(s) / sizeof(*s);
 
 	for (i = 0 ; i < size ; i++)
 	{
