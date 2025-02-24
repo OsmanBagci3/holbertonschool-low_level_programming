@@ -2,10 +2,10 @@
  * File: 4-print_rev.c
  */
 #include <stdio.h>
-#include <time.h>
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
+#include "2-strlen.c"
 /**
  * print_rev - Print a string in reverse
  *
