@@ -15,7 +15,8 @@
 
 int _strlen(char *s)
 {
-	long size = sizeof(s);
+	char str[] = *s;
+	long size = sizeof(str);
 	
 
 	printf("%ld", size);
