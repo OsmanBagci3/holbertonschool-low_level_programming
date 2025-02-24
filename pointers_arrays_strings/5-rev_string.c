@@ -18,9 +18,13 @@ void rev_string(char *s)
 	int size = _strlen(s);
 	int i;
 
-	for (i = size - 1 ; i >= 0 ; i--)
+	char tempValue;
+
+	for (i = 0 ; i < size/2 ; i++)
 	{
-		_putchar(s[i]);
+		tempValue = s[i];
+		s[i] = s[size -1 -i];
+		s[size -1 -i] = tempValue;
 	}
 
 	_putchar('\n');
