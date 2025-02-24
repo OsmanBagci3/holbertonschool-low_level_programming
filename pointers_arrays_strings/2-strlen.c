@@ -16,11 +16,9 @@
 int _strlen(char *s)
 {
 	int i;
-	size_t size = sizeof(s) / sizeof(s[0]);
+	int size = sizeof(s);
 
-	for (i = 0 ; i < size ; i++)
-	{
-		printf("%c ", *(s + i));
-	}
+	printf("%d", size);
+	
 	return (0);
 }
