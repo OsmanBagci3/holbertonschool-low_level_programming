@@ -8,8 +8,7 @@
 #include <ctype.h>
 /**
  * print_most_numbers - Prints number from 0 to 9
- * 			except 2 and 4
- *
+ *			except 2 and 4
  *
  */
 
