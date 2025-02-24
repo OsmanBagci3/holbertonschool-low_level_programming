@@ -19,7 +19,7 @@ void print_rev(char *s)
 	int tabLength = sizeof(s);
 	int i;
 
-	for (i = tablength ; i >= 0 ; i--)
+	for (i = tabLength ; i >= 0 ; i--)
 	{
 		_putchar(s[i]);
 	}
