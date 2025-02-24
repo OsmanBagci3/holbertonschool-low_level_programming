@@ -19,9 +19,9 @@ void _puts(char *str)
 	
 	int i;
 
-	while(s[i] != '\0')
+	while(str[i] != '\0')
 	{
-		puts(s[i]);
+		puts(str[i]);
 		i++;
 	}
 	puts("");
