@@ -19,7 +19,7 @@ int _strlen(char *s)
 
 	while (s[compteur] != '\0')
 	{
-		compteur++
+		compteur++;
 	}
 
 	printf("%d", compteur);
