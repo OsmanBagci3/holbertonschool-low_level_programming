@@ -17,7 +17,7 @@ int _strlen(char *s)
 {
 	int size = sizeof(s);
 
-	printf("%ld", size / (sizeof(s[0])));
+	printf("%ld", size);
 	
 	return (0);
 }
