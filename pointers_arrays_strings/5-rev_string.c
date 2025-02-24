@@ -15,10 +15,10 @@
 
 void rev_string(char *s)
 {
-	int size = sizeof(s);
+	int size = _strlen(s);
 	int i;
 
-	for (i = size ; i >= 0 ; i--)
+	for (i = size - 1 ; i >= 0 ; i--)
 	{
 		_putchar(s[i]);
 	}
