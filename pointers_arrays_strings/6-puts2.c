@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include "2-strlen.c"
 /**
- * puts2 - Use of strlen
+ * puts2 - Prints other characters
  *
  * @str: Paramatre dentree
  *
@@ -26,4 +26,4 @@ void puts2(char *str)
 		}
 	}
 	_putchar('\n');
-}	
+}
