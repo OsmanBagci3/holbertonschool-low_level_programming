@@ -15,7 +15,6 @@
 
 int _strlen(char *s)
 {
-	int i;
 	int size = sizeof(s);
 
 	printf("%d", size);
