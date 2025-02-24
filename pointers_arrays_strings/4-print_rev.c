@@ -16,7 +16,7 @@
 
 void print_rev(char *s)
 {
-	int tabLength = sizeof(s);
+	int tabLength = sizeof(s) + 1;
 	int i;
 
 	for (i = tabLength ; i >= 0 ; i--)
