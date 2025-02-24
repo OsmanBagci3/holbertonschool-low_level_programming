@@ -15,7 +15,9 @@
 
 int _strlen(char *s)
 {
-	char c[] = s;
-
-	return (sizeof(c));
+	for (i = 0 ; sizeof(s) ; i++)
+	{
+		printf("%c ", *(s + i));
+	}
+	return (0);
 }
