@@ -9,7 +9,7 @@
 /**
  * reset_to_98 - Update value of int
  *
- * @*n: Paramatre dentree
+ * @n: Paramatre dentree
  *
  */
 
