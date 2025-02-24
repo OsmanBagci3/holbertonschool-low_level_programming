@@ -17,12 +17,6 @@
 void _puts(char *str)
 {
 	
-	int i;
+	puts(str);
 
-	while(str[i] != '\0')
-	{
-		puts(str[i]);
-		i++;
-	}
-	puts("");
 }
