@@ -11,6 +11,7 @@
  *
  * @s: Paramatre dentree
  *
+ * Return: size of table
  */
 
 int _strlen(char *s)
