@@ -27,5 +27,4 @@ void rev_string(char *s)
 		s[size -1 -i] = tempValue;
 	}
 
-	_putchar('\n');
 }
