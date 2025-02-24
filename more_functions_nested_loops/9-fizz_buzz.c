@@ -7,13 +7,12 @@
 #include <unistd.h>
 #include <ctype.h>
 /**
- * print_line - Prints lines
+ * main - Prints FizzBuzz
  *
- * @n: Parametre dentree
- *
+ * Return: Always 0
  */
 
-void main(void)
+int main(void)
 {
 	int i;
 
@@ -38,4 +37,6 @@ void main(void)
 		printf(" ");
 	}
 	_putchar('\n');
+
+	return (0);
 }
