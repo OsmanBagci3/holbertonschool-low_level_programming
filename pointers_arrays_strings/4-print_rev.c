@@ -7,16 +7,15 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * _strlen - Use of strlen
+ * print_rev - Print a string in reverse
  *
  * @s: Paramatre dentree
  *
- * Return: size of table
  */
 
 void print_rev(char *s)
 {
-	int tabLength = sizeof(s) + 1;
+	int tabLength = _strlen(s);
 	int i;
 
 	for (i = tabLength ; i >= 0 ; i--)
