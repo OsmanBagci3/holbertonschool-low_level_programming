@@ -5,7 +5,7 @@
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
-#include "4-print_rev.c"
+#include "2-strlen.c"
 /**
  * rev_string - Print a string in reverse
  *
@@ -15,5 +15,21 @@
 
 void rev_string(char *s)
 {
-	print_rev(s);
+	int tabLength = _strlen(s);
+	int i;
+	char tempArray[tabLength];
+
+	for (i = 0 ; i < tabLength ; i++)
+	{
+		tempArray[i] = s[tabLength - (i + 1)];
+	}
+
+	*s = tempArray;
+
+	for (i = 0 ; i < tabLength - 1 ; i++)
+	{
+		_putchar(s[i]);
+	}
+
+	_putchar('\n');
 }
