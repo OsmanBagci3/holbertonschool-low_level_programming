@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <ctype.h>
 /**
- * isdigit - check if c is a digit number
+ * _isdigit - check if c is a digit number
  *
  * @c : Parameter
  *
