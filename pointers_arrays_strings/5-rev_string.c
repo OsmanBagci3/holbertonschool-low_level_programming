@@ -15,18 +15,10 @@
 
 void rev_string(char *s)
 {
-	int tabLength = _strlen(s);
+	int size = sizeof(s);
 	int i;
-	char tempArray[tabLength];
 
-	for (i = 0 ; i < tabLength ; i++)
-	{
-		tempArray[i] = s[tabLength - (i + 1)];
-	}
-
-	*s = tempArray;
-
-	for (i = 0 ; i < tabLength - 1 ; i++)
+	for (i = size - 1 ; i >= 0 ; i--)
 	{
 		_putchar(s[i]);
 	}
