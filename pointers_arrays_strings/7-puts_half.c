@@ -8,7 +8,7 @@
 #include "2-strlen.c"
 /**
  * puts_half - Prints second half of str
- * 
+ *
  * @str: Paramatre dentree
  *
  */
