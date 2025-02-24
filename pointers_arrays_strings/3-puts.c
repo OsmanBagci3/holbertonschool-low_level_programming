@@ -7,11 +7,10 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * _strlen - Use of strlen
+ * _puts - Use of strlen
  *
- * @s: Paramatre dentree
+ * @str: Paramatre dentree
  *
- * Return: size of table
  */
 
 void _puts(char *str)
