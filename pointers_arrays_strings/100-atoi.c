@@ -7,12 +7,11 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *_strcpy - Copy data from one string into the
- *		the memory of the other string
+ * _atoi - Converts string to int
  *
- * @s: Parametre dentree 
+ * @s: Parametre dentree
  *
- * Return: Pointer
+ * Return: An integer
  */
 
 int _atoi(char *s)
@@ -26,12 +25,11 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 		{
-			sign = - 1 * sign;
+			sign = -1 * sign;
 		}
-		
 		if (s[i] >= '0' && s[i] <= '9')
 		{
-			z = z * 10 + (s[i] -'0');
+			z = z * 10 + (s[i] - '0');
 			digitFound = true;
 		}
 		else if (digitFound)
