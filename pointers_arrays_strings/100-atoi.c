@@ -19,10 +19,7 @@ int _atoi(char *s)
 {
 	int i = 0;
 	int sign = 1;
-	char c;
-	int pow = 1;
 	int z = 0;
-	int digit;
 	bool digitFound = false;
 
 	while (s[i] != '\0')
@@ -31,34 +28,17 @@ int _atoi(char *s)
 		{
 			sign = - 1 * sign;
 		}
-		for (c = '0' ; c <= '9' ; c++)
+		
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			if (c == s[i])
-			{
-				digitFound = true;
-				digit = c - '0';
-				if (pow <= z)
-				{
-					pow = pow * 10;
-				}
-				z = z * pow + digit;
-			}
+			z = z * 10 + (s[i] -'0');
+			digitFound = true;
 		}
-		if (digitFound)
+		else if (digitFound)
 		{
-			for (c = '0' ; c <= '9' ; c++)
-			{
-				if (s[i+1] == c)
-				{
-					digitFound = false;
-				}
-			}
-		}
-		if (digitFound == true)
-		{
-			return (sign * z);
+			break;
 		}
 		i++;
 	}
-	return (0);
+	return (z * sign);
 }
