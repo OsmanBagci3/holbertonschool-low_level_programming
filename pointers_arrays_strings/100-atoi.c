@@ -19,7 +19,7 @@ int _atoi(char *s)
 {
 	int i = 0;
 	int sign = 1;
-	int z = 0;
+	double z = 0;
 	bool digitFound = false;
 
 	while (s[i] != '\0')
