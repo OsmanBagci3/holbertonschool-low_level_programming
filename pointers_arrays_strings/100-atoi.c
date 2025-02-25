@@ -58,6 +58,7 @@ int _atoi(char *s)
 		{
 			return (sign * z);
 		}
+		i++;
 	}
 	return (0);
 }
