@@ -37,7 +37,7 @@ int _atoi(char *s)
 			{
 				digitFound = true;
 				digit = c - '0';
-				if (pow < z)
+				if (pow <= z)
 				{
 					pow = pow * 10;
 				}
