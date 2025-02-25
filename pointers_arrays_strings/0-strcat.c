@@ -7,8 +7,8 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *_strcpy - Copy data from one string into the
- *		the memory of the other string
+ * *_strcat - Concatenate data from one string into
+ *		the other string
  *
  * @dest: Paramatre dentree
  * @src: Parametre dentree 2
@@ -34,4 +34,4 @@ char *_strcat(char *dest, char *src)
 	}
 
 	return (dest);
-}		
+}	
