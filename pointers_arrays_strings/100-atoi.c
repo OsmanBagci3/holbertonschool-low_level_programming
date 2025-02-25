@@ -2,7 +2,7 @@
  * File: 100-ato_i.c
  */
 #include <stdio.h>
-#include <time.h>
+#include <stdbool.h>
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
