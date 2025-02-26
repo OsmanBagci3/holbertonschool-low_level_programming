@@ -18,17 +18,17 @@
 char *string_toupper(char *s)
 {
 	int i = 0;
-	int len = 0;
 
-	while (s[len] != '\0')
+	while (s[i] != '\0')
 	{
-		len++;
+		if ((int)s[i] >= 97 && (int)s[i] <= 122)
+		{
+			(int)s[i] = (int)s[i] - 32;
+		}
+		
+		i++;
 	}
 
-	for (i = 0 ; i < len ; i++)
-	{
-		s[i] = toupper(s[i]);
-	}
 
 	return (s);
 }
