@@ -28,7 +28,6 @@ char *cap_string(char *s)
 			}
 			else
 			{
-				printf("je rentre ici\n");
 				if (s[i-1] == ' ')
 				{
 					s[i] = (int)s[i] - 32;
