@@ -20,16 +20,12 @@
 char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
-	int compteur = 0;
 
-	while (src[i] != '\0' && compteur < n)
+	while (i < n)
 	{
 		dest[i] = src[i];
 		i++;
-		compteur++;
 	}
-
-	dest[i] = '\0';
 
 	return (dest);
 }
