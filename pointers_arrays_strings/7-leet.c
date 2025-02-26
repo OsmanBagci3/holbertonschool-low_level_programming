@@ -23,6 +23,9 @@ char *leet(char *s)
 		if (s[i] == 'a' || s[i] == 'A')
 		{
 		}
+		else
+		{
+		}
 		i++;
 	}
 	return (s);
