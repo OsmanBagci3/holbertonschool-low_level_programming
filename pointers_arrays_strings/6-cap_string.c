@@ -28,12 +28,14 @@ char *cap_string(char *s)
 			}
 			else
 			{
+				printf("je rentre ici\n");
 				if (s[i-1] == ' ')
 				{
 					s[i] = (int)s[i] - 32;
 				}
 				else if ((s[i-1] == 'n' || s[i-1] == 't') && s[i-2] == '\\')
 				{
+					printf("je rentre ici\n");
 					s[i] = (int)s[i] - 32;
 				}
 			}
