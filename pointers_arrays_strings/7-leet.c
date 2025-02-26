@@ -23,8 +23,11 @@ char *leet(char *s)
 		if (s[i] == 'a' || s[i] == 'A')
 		{
 		}
-		else
+		for (i = 0 ; i < 10 ; i++)
 		{
+			for (i = 0 ; i < 10 ; i++)
+			{
+			}
 		}
 		i++;
 	}
