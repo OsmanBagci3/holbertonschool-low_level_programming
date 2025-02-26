@@ -14,6 +14,7 @@
  * Return: pointer to s
  */
 
+char transfo(char t);
 char *leet(char *s)
 {
 	int i = 0;
