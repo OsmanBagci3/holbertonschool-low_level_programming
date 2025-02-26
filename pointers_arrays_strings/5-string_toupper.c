@@ -7,8 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * string_toupper - Copy data from one string into the
- *		the memory of the other string
+ * *string_toupper - Upper case characters
  *
  * @s: Paramatre dentree
  *
