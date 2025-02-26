@@ -32,7 +32,7 @@ char *cap_string(char *s)
 				{
 					s[i] = (int)s[i] - 32;
 				}
-				else if ((s[i-1] == 'n' || s[i-1] == 't') && s[i-2] == '\\')
+				else if ((s[i-1] == 'n' || s[i-1] == 't') && s[i-2] == '\')
 				{
 					s[i] = (int)s[i] - 32;
 				}
