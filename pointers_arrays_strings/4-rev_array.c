@@ -7,14 +7,12 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *_strncpy - Copy data from one string into the
+ * reverse_array - Copy data from one string into the
  *		the memory of the other string
  *
- * @dest: Paramatre dentree
- * @src: Parametre dentree 2
+ * @a: Paramatre dentree
  * @n: Condition d arret
  *
- * Return: Pointer to dest
  */
 
 void reverse_array(int *a, int n)
