@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *string_toupper - Copy data from one string into the
+ * string_toupper - Copy data from one string into the
  *		the memory of the other string
  *
  * @s: Paramatre dentree
