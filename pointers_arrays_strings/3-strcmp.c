@@ -7,14 +7,13 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *_strncpy - Copy data from one string into the
+ * *_strcmp - Copy data from one string into the
  *		the memory of the other string
  *
- * @dest: Paramatre dentree
- * @src: Parametre dentree 2
- * @n: Condition d arret
+ * @s1: Paramatre dentree
+ * @s2: Parametre dentree 2
  *
- * Return: Pointer to dest
+ * Return: Value of str_cmp
  */
 
 int _strcmp(char *s1, char *s2)
