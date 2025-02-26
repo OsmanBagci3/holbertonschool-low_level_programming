@@ -22,7 +22,7 @@ char *cap_string(char *s)
 	{
 		if ((int)s[i] >= 97 && (int)s[i] <= 122)
 		{
-			if ((int)s[i-1] < 97 && (int)s[i-1] > 122 && (int)s[i-1] < 65 && (int)s[i-1] > 90)
+			if (s[i-1] == ' ')
 			{
 				s[i] = (int)s[i] -32;
 			}
