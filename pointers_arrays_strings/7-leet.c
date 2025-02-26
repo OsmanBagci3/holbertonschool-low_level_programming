@@ -14,29 +14,24 @@
  * Return: pointer to s
  */
 
-char transfo(char t);
 char *leet(char *s)
 {
 	int i = 0;
+	int j = 0;
+	char numbers[5] = {'4','3', '0', '7', '1'};
+	char majuscules[5] = {'A', 'E', 'O', 'T', 'L'};
+	char minuscules[5] = {'a', 'e', 'o', 't', 'l'};
 
 	while (s[i] != '\0')
 	{
-		if (s[i] == 'a' || s[i] == 'A' || s[i] == 'e' ||
-			s[i] == 'E' || s[i] == 'o' || s[i] == 'O' || s[i] == 'l'
-			|| s[i] == 'L' || s[i] == 't' || s[i] == 'T')
+		for (j = 0 ; j < 5 ; j++)
 		{
-			s[i] = transfo(s[i]);
+			if (s[i] == majuscules[j] || s[i] == minuscules[j])
+			{
+				s[i] = numbers[j];
+			}
 		}
 		i++;
 	}
 	return (s);
-}
-
-char transfo(char t)
-{
-	if (t < 100)
-	{
-	}
-
-	return (t);
 }
