@@ -34,7 +34,6 @@ char *cap_string(char *s)
 				}
 				else if (s[i-1] == '\n' || s[i-1] == '\t')
 				{
-					printf("je rentre ici\n");
 					s[i] = (int)s[i] - 32;
 				}
 			}
