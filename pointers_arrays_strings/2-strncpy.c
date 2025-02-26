@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *_strcpy - Copy data from one string into the
+ * *_strncpy - Copy data from one string into the
  *		the memory of the other string
  *
  * @dest: Paramatre dentree
