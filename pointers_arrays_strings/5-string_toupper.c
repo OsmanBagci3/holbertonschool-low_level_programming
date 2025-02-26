@@ -2,7 +2,7 @@
  * File: 5-string_toupper.c
  */
 #include <stdio.h>
-#include <time.h>
+#include <ctype.h>
 #include "main.h"
 #include <unistd.h>
 #include <string.h>
