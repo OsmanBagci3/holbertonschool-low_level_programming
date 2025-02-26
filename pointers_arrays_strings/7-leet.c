@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *cap_string - Upper case characters
+ * *leet - Upper case characters
  *
  * @s: Paramatre dentree
  *
@@ -18,7 +18,7 @@ char *leet(char *s)
 {
 	int i = 0;
 	int j = 0;
-	char numbers[5] = {'4','3', '0', '7', '1'};
+	char numbers[5] = {'4', '3', '0', '7', '1'};
 	char majuscules[5] = {'A', 'E', 'O', 'T', 'L'};
 	char minuscules[5] = {'a', 'e', 'o', 't', 'l'};
 
