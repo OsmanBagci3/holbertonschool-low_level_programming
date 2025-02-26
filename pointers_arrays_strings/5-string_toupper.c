@@ -23,7 +23,7 @@ char *string_toupper(char *s)
 	{
 		if ((int)s[i] >= 97 && (int)s[i] <= 122)
 		{
-			(int)s[i] = (int)s[i] - 32;
+			s[i] = (int)s[i] - 32;
 		}
 		
 		i++;
