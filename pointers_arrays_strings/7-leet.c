@@ -20,14 +20,10 @@ char *leet(char *s)
 
 	while (s[i] != '\0')
 	{
-		if (s[i] == 'a' || s[i] == 'A')
+		if (s[i] == 'a' || s[i] == 'A' || s[i] == 'e' ||
+			s[i] == 'E' || s[i] == 'o' || s[i] == 'O' || s[i] == 'l'
+			|| s[i] == 'L' || s[i] == 't' || s[i] == 'T')
 		{
-		}
-		for (i = 0 ; i < 10 ; i++)
-		{
-			for (i = 0 ; i < 10 ; i++)
-			{
-			}
 		}
 		i++;
 	}
