@@ -7,7 +7,7 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *string_toupper - Upper case characters
+ * *cap_string - Upper case characters
  *
  * @s: Paramatre dentree
  *
@@ -28,11 +28,11 @@ char *cap_string(char *s)
 			}
 			else
 			{
-				if (s[i-1] == ' ')
+				if (s[i - 1] == ' ')
 				{
 					s[i] = (int)s[i] - 32;
 				}
-				else if (s[i-1] == '\n' || s[i-1] == '\t' || s[i-1] == '.')
+				else if (s[i - 1] == '\n' || s[i - 1] == '\t' || s[i - 1] == '.')
 				{
 					s[i] = (int)s[i] - 32;
 				}
