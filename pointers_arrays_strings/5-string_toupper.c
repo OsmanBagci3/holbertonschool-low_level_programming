@@ -11,6 +11,7 @@
  *
  * @s: Paramatre dentree
  *
+ * Return: pointer to s
  */
 
 char *string_toupper(char *s)
