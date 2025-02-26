@@ -24,13 +24,17 @@ char *cap_string(char *s)
 		{
 			if (i == 0)
 			{
-				s[i] = (int)s[i] -32;
+				s[i] = (int)s[i] - 32;
 			}
 			else
 			{
 				if (s[i-1] == ' ')
 				{
-					s[i] = (int)s[i] -32;
+					s[i] = (int)s[i] - 32;
+				}
+				else if ((s[i-1] == 'n' || s[i-1] == 't') && s[i-2] == '\\')
+				{
+					s[i] = (int)s[i] - 32;
 				}
 			}
 		}
