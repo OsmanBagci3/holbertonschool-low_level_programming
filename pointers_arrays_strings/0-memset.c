@@ -1,5 +1,5 @@
 /*
- * File: 7-leet.c
+ * File: 0-memset.c
  */
 #include <stdio.h>
 #include <ctype.h>
@@ -7,9 +7,11 @@
 #include <unistd.h>
 #include <string.h>
 /**
- * *leet - Upper case characters
+ * *_memset - Fills memory with constant byte.
  *
  * @s: Paramatre dentree
+ * @b: Un parametre
+ * @n: nombre de caractère à considérer
  *
  * Return: pointer to s
  */
