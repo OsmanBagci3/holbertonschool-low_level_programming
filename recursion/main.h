@@ -1,0 +1,10 @@
+/*
+ * File : Header file
+ */
+
+#include <stdio.h>
+#include <unistd.h>
+
+int _putchar(char c);
+
+void _puts_recursion(char *s);
