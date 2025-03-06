@@ -28,3 +28,5 @@ int _check_if_prime_number(int n, int x);
 void _reverse_str(char *s);
 
 int is_palindrome(const char *s, int start, int end);
+
+int puissance(int x, int n);
