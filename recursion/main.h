@@ -30,3 +30,7 @@ void _reverse_str(char *s);
 int is_palindrome(const char *s, int start, int end);
 
 int puissance(int x, int n);
+
+int somme_chiffres(int n);
+
+void hanoi(int n, char source, char target, char aux);
