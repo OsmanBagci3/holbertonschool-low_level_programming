@@ -38,16 +38,11 @@ int main(void)
 
 	for (i = 0 ; i < n ; i++)
 	{
-		scanf("%d", &a);
-		*(p + i) = a;
+		scanf("%d", &*(p + i));
+		sum = sum + *(p + i);	
 	}
 	
-	printf("Somme des valeurs : ");
-
-	for (i = 0 ; i < n ; i++)
-	{
-		sum = sum + *(p + i);
-	}
+	printf("Somme des valeurs : ", sum);
 
 	free(p);
 
