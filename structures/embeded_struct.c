@@ -94,7 +94,9 @@ int main(void)
 
 		printf("entrez âge : ");
 		fflush(stdout);
-		scanf("%d", &(personne[i].age));
+		scanf("%[^\n]", input);
+
+		personne[i].age = VerifPositiveNumber(input);
 
 		printf ("renseignement de l'adresse :\n");
 		while (getchar() != '\n');
